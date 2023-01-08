@@ -1,0 +1,30 @@
+header {
+  height: 70px;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-font-primary);
+  display: flex;
+}
+
+.header-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+}
+
+.menu-item {
+  margin-right: 20px;
+}
+
+.menu-active {
+  font-weight: bold;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
